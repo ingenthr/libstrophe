@@ -1,7 +1,7 @@
 ACLOCAL_AMFLAGS=-I m4
 AUTOMAKE_OPTIONS = subdir-objects
 
-AM_CFLAGS = -g -Wall -Werror
+AM_CFLAGS = -g
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libstrophe.pc
